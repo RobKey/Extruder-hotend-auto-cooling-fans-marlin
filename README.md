@@ -12,15 +12,14 @@ Edit Configuration_adv.h making the following change
 <pre>
 // @section extruder
 
-/**
- * Extruder cooling fans
- * Extruder auto fans automatically turn on when their extruders'
- * temperatures go above EXTRUDER_AUTO_FAN_TEMPERATURE.
- * Your board's pins file specifies the recommended pins. Override those here
- * or set to -1 to disable completely.
- * Multiple extruders can be assigned to the same pin in which case
- * the fan will turn on when any selected extruder is above the threshold.
- */
+// Extruder cooling fans
+ // Extruder auto fans automatically turn on when their extruders'
+ // temperatures go above EXTRUDER_AUTO_FAN_TEMPERATURE.
+ // Your board's pins file specifies the recommended pins. Override those here
+ // or set to -1 to disable completely.
+ // Multiple extruders can be assigned to the same pin in which case
+ // the fan will turn on when any selected extruder is above the threshold.
+
 #define E0_AUTO_FAN_PIN 6
 #define E1_AUTO_FAN_PIN -1
 #define E2_AUTO_FAN_PIN -1
