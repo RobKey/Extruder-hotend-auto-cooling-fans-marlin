@@ -2,13 +2,7 @@ Controlling the hotend / extruder cooling fan automatically.<br>
 Requirements Marlin, PWM fan controll cct, Arduino mega / Ramps 1.4 <br>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 Connent the PWM driver circuit to D6 
 Edit Configuration_adv.h making the following change
 
@@ -43,3 +37,11 @@ Edit Configuration_adv.h making the following change
 #define CHAMBER_AUTO_FAN_SPEED 255
 
 </pre>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
